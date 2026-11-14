@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ShopMitra - Online Shopping</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial;background:#f1f3f6;color:#222}
+header{background:#1769aa;color:white;padding:16px;text-align:center}
+header h1{margin:0;font-size:28px}
+header p{margin:5px}
+.search{padding:12px;background:white}
+.search input{width:100%;padding:13px;border:1px solid #ccc;border-radius:8px;font-size:16px}
+nav{display:flex;justify-content:space-around;background:#fff;padding:14px 4px;flex-wrap:wrap;gap:12px}
+nav a{color:#1769aa;text-decoration:none;font-weight:bold}
+.banner{background:linear-gradient(120deg,#1769aa,#39a9e8);color:white;padding:28px 15px;text-align:center}
+.banner h2{font-size:25px;margin:0 0 10px}
+h2.section{padding:12px}
+.products{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;padding:12px}
+.card{background:white;padding:12px;border-radius:10px;text-align:center}
+.card img{width:100%;height:125px;object-fit:contain}
+.price{color:#16833a;font-weight:bold;font-size:19px}
+button{background:#ff9f00;color:white;border:0;padding:11px;border-radius:6px;font-weight:bold;width:100%}
+footer{background:#1769aa;color:white;text-align:center;padding:20px;margin-top:20px}
+</style>
+</head>
+<body>
+<header>
+<h1>🛍️ ShopMitra</h1>
+<p>Har Kharidari, Aapki Apni Pasand!</p>
+</header>
+<div class="search">
+<input type="search" placeholder="Search your favourite products...">
+</div>
+<nav>
+<a href="#">Home</a>
+<a href="#products">Products</a>
+<a href="#categories">Categories</a>
+<a href="#cart">🛒 Cart</a>
+</nav>
+<div class="banner">
+<h2>Welcome to ShopMitra!</h2>
+<p>Discover Amazing Products at Great Prices</p>
+</div>
+<h2 class="section" id="categories">Shop by Category</h2>
+<nav>
+<a href="#products">Fashion</a>
+<a href="#products">Electronics</a>
+<a href="#products">Home</a>
+<a href="#products">Beauty</a>
+</nav>
+<h2 class="section" id="products">Featured Products</h2>
+<div class="products">
+<div class="card">
+<img src="https://placehold.co/300x200?text=Shoes" alt="Shoes">
+<h3>Stylish Shoes</h3>
+<p class="price">₹999</p>
+<button onclick="alert('Product selected!')">Add to Cart</button>
+</div>
+<div class="card">
+<img src="https://placehold.co/300x200?text=Watch" alt="Watch">
+<h3>Smart Watch</h3>
+<p class="price">₹1499</p>
+<button onclick="alert('Product selected!')">Add to Cart</button>
+</div>
+<div class="card">
+<img src="https://placehold.co/300x200?text=Bag" alt="Bag">
+<h3>Travel Bag</h3>
+<p class="price">₹799</p>
+<button onclick="alert('Product selected!')">Add to Cart</button>
+</div>
+<div class="card">
+<img src="https://placehold.co/300x200?text=Headphones" alt="Headphones">
+<h3>Headphones</h3>
+<p class="price">₹599</p>
+<button onclick="alert('Product selected!')">Add to Cart</button>
+</div>
+</div>
+<footer>
+<h3>ShopMitra</h3>
+<p>Your Trusted Online Shopping Partner</p>
+<p>© 2026 ShopMitra</p>
+</footer>
+</body>
+  </html>
+  
